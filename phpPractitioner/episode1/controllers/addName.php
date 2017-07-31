@@ -1,7 +1,7 @@
 <?php
 
- $app['database']->insertName('names', $_POST['name']);
+ $app['database']->insert('names',[
+     'name' => $_POST['name'],
+     ]);
 
-
- $names = $app['database']->selectAll('names');
 

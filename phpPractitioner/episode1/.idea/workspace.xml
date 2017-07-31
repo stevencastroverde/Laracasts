@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27d566a-1982-4409-a7bf-8429ae94b81e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/addName.php" afterPath="$PROJECT_DIR$/controllers/addName.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/database/QueryBuilder.php" afterPath="$PROJECT_DIR$/core/database/QueryBuilder.php" />
     </list>
@@ -26,22 +25,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="addName.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addName.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/addName.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/index.php">
+      <file leaf-file-name="QueryBuilder.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/database/QueryBuilder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="555">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding>
+                <marker date="1501537783000" expanded="true" signature="218:232" ph="SELECT * FRO... $" />
+                <marker date="1501537783000" expanded="true" signature="395:396" ph="INSERT INTO $... " />
+                <marker date="1501537783000" expanded="true" signature="412:426" ph="Insert into " />
+                <marker date="1501537783000" expanded="true" signature="412:443" ph="INSERT INTO " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -181,12 +185,12 @@
       <updated>1500616836710</updated>
       <workItem from="1500616842240" duration="10202000" />
       <workItem from="1501094869420" duration="3198000" />
-      <workItem from="1501213204802" duration="3931000" />
+      <workItem from="1501213204802" duration="4857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17331000" />
+    <option name="totallyTimeSpent" value="18257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="702" y="23" width="738" height="810" extended-state="0" />
@@ -274,14 +278,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -391,14 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/database/Connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/Request.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -431,23 +419,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/database/QueryBuilder.php">
+    <entry file="file://$PROJECT_DIR$/controllers/addName.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="97" lean-forward="false" selection-start-line="21" selection-start-column="97" selection-end-line="21" selection-end-column="97" />
-          <folding>
-            <marker date="1501536607000" expanded="true" signature="218:232" ph="SELECT * FRO... $" />
-            <marker date="1501536607000" expanded="true" signature="428:484" ph="INSERT INTO " />
-            <marker date="1501536607000" expanded="true" signature="428:486" ph="INSERT INTO $... " />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/addName.php">
+    <entry file="file://$PROJECT_DIR$/core/database/Connection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/database/QueryBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <marker date="1501537783000" expanded="true" signature="218:232" ph="SELECT * FRO... $" />
+            <marker date="1501537783000" expanded="true" signature="395:396" ph="INSERT INTO $... " />
+            <marker date="1501537783000" expanded="true" signature="412:426" ph="Insert into " />
+            <marker date="1501537783000" expanded="true" signature="412:443" ph="INSERT INTO " />
+          </folding>
         </state>
       </provider>
     </entry>
