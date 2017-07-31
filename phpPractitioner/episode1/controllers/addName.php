@@ -1,4 +1,7 @@
 <?php
 
- var_dump($_POST);
+ $app['database']->insertName('names', $_POST['name']);
+
+
+ $names = $app['database']->selectAll('names');
 
