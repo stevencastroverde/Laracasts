@@ -1,5 +1,8 @@
 <?php
 
+namespace App\Controllers;
+
+use App\Core\App;
 
 class UsersController {
 
@@ -7,10 +10,11 @@ class UsersController {
 
         $names = App::get('database')->selectAll('names');
 
-        return view('users',compact($names));
+        return view('users',compact('names'));
     }
 
     public function store() {
+
 
         App::get('database')->insert('names',[
             'name' => $_POST['name'],

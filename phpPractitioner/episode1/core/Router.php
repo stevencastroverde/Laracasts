@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Core;
+
 class Router {
     public $routes = [
         'GET' => [],
@@ -36,17 +38,21 @@ class Router {
        );
 
        } else {
-           throw new Exception('No Route Defined');
+           throw new \Exception('No Route Defined');
        }
     }
 
     protected function callController($controller, $action) {
 
+        $controller = "App\\Controllers\\{$controller}";
+
+         $controller = new $controller;
+
         if(! method_exists($controller, $action)) {
-            throw new Exception('{$controller} does not have {$action}');
+            throw new \Exception('{$controller} does not have {$action}');
         }
 
-        return (new $controller)->$action();
+        return $controller->$action();
 
     }
 }
